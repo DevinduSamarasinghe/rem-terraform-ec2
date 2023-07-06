@@ -1,6 +1,11 @@
-variable "provider_keys" {
-    description = "values for the IAM user keys"
-    type = list(string)
+variable "aws_access_key" {
+    description = "access key for IAM user"
+    type = string
+}
+
+variable "aws_secret_key" {
+    description = "secret key for IAM user"
+    type = string
 }
 
 variable "vpc_cidr" {
