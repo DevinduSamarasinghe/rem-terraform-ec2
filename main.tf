@@ -20,3 +20,4 @@ module "vpc" {
     prod_subnet_az = var.prod_subnet_az
     prod_subnet_tag = var.prod_subnet_tag
 }
+
